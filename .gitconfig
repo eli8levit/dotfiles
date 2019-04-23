@@ -1,10 +1,9 @@
 [user]
 	name = Eli Levit
 	email = jediyozh@gmail.com
-
 [core]
         autocrlf = input
-
 [alias]
   mgdev = !git pull origin develop && git merge develop
   resundo = !git reset 'HEAD@{1}'
+  delmerged = !git branch --merged
